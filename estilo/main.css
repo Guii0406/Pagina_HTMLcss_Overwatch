@@ -1,0 +1,149 @@
+.sobre-o-jogo{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.sobre-o-jogo header{
+    text-align: center;
+}
+.sobre-o-jogo h1{
+    font-size: 20pt;
+    color: rgb(46, 45, 45);
+    letter-spacing: 1.5px;
+    
+}
+.sobre-o-jogo p{
+    text-align: center;
+    color: rgb(87, 86, 86);
+    font-size: 13pt;
+    letter-spacing: 1.5px;
+    line-height: 1.5;
+    
+    
+}
+
+.section-cards{
+    width: 80%;
+    margin: auto;
+    /* background-color: gray; */
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+.cards{
+    float: left;
+    width: 32%;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 5px 5px 8px  rgba(0, 0, 0, 0.363);
+}
+.card-1, .card-2{
+    margin-right: 2%;
+}
+.cards img{
+    width: 100%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    /* display: block; */
+    cursor: pointer;
+    border: 3px white solid;
+    box-sizing: border-box;
+}
+.cards p{
+    text-align: center;
+    letter-spacing: 0.5px;
+    font-weight: 550;
+    text-transform: uppercase;
+    line-height: 1.4;
+
+    height: 45px;
+    color: rgb(41, 41, 41);
+    
+}
+.heroi{
+    letter-spacing: 5px;
+    font-weight: bolder;
+}
+.section-background{
+    background-image: url(../imagens/backgroundwidow.jpg);
+    background-repeat: no-repeat;
+    /* width: 100%; */
+    background-size: cover;
+    background-attachment: scroll;
+    margin-bottom: 50px;
+    /* padding: 100px;
+    padding-right: 300px; */
+    color: white;
+    /* text-shadow: 2px 2px 5px black; */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.493);
+
+    border-radius: 250px;
+}
+.section-background header{
+    text-align: left;
+    margin-left: 200px;
+    text-indent: -20px;
+    font-size: 30pt;
+    text-transform: uppercase;
+}
+.section-background p{
+    font-size: 13pt;
+    line-height: 1.5;
+    
+}
+.negrito{
+    font-weight: bold;
+}
+
+.section-background article{
+    width: 80%;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 5px 200px 50px 0px;
+    letter-spacing: 1.5px;
+}
+.link{
+    text-align: center;
+    margin-bottom: 50px;
+    width: 100%;
+}
+.link a{
+    text-decoration: none;
+    font-size: 30pt;
+    color: rgb(51, 21, 65);
+    padding-top: 5px;
+    transition: color 0.5s, border 0.5s;
+    /* transition: border 0.5s; */
+    text-align: center;
+    letter-spacing: 2px;
+    border-top: 2px solid transparent;
+    
+}
+.link a:hover{
+    color: rgb(124, 55, 156);
+    border-top: 2px solid rgb(94, 40, 119);
+}
+
+
+footer a{
+    text-decoration: none;
+    color: wheat;
+
+}
+
+#mapa{
+    margin-bottom: 50px;
+    border-radius: 500px;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: rgb(63, 63, 63);
+    border-bottom: 1px transparent solid;
+    padding-top: 5px;
+    margin-top: 15px;
+    letter-spacing: 2px;
+    text-shadow: black 1px 1px 2px;
+}
